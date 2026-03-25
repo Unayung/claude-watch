@@ -45,7 +45,7 @@ targets:
         PRODUCT_NAME: Claude Watch
         GENERATE_INFOPLIST_FILE: false
         SUPPORTS_MACCATALYST: false
-        ARCHS: "$(ARCHS_STANDARD)"
+        ARCHS: "arm64 arm64e arm64_32"
 
 schemes:
   ClaudeWatch:
